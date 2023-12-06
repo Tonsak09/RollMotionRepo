@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8187665496738601573
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dots
+  m_Shader: {fileID: -6465566751694194690, guid: 64c7971eac16983408ed9619333c4ca1, type: 3}
+  m_ValidKeywords:
+  - _ALPHATEST_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: TransparentCutout
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 1
+    - _Blend: 0
+    - _CastShadows: 1
+    - _Crispness: 0
+    - _Cull: 2
+    - _DstBlend: 0
+    - _LineCrispness: 0
+    - _LineThickness: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _Thickness: 0.01
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 0
+    m_Colors:
+    - _BGColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Dot1: {r: -0.19183251, g: 0.19687393, b: 0, a: 0}
+    - _Dot10: {r: 0.26363963, g: -0.183595, b: 0, a: 0}
+    - _Dot11: {r: -0.013708204, g: -0.24316128, b: 0, a: 0}
+    - _Dot12: {r: -0.2298189, g: 0.10402372, b: 0, a: 0}
+    - _Dot13: {r: -0.0967029, g: 0.2988996, b: 0, a: 0}
+    - _Dot14: {r: 0.24360567, g: 0.026884556, b: 0, a: 0}
+    - _Dot15: {r: 0.013817847, g: -0.26989228, b: 0, a: 0}
+    - _Dot16: {r: -0.054672755, g: 0.041539162, b: 0, a: 0}
+    - _Dot2: {r: -0.15080795, g: -0.15674946, b: 0, a: 0}
+    - _Dot3: {r: -0.18229008, g: -0.26043302, b: 0, a: 0}
+    - _Dot4: {r: 0.151003, g: -0.19738728, b: 0, a: 0}
+    - _Dot5: {r: 0.0717733, g: 0.20226997, b: 0, a: 0}
+    - _Dot6: {r: -0.01410079, g: -0.044100195, b: 0, a: 0}
+    - _Dot7: {r: 0.05093047, g: 0.08261847, b: 0, a: 0}
+    - _Dot8: {r: 0.26372755, g: 0.16897523, b: 0, a: 0}
+    - _Dot9: {r: 0.28199917, g: -0.25154746, b: 0, a: 0}
+    - _DotA: {r: 0.91, g: 1.38, b: 0, a: 0}
+    - _DotB: {r: -2.26, g: 1, b: 0, a: 0}
+    - _DotC: {r: 0.06, g: 0, b: 0, a: 0}
+    - _DotColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DotD: {r: 0, g: 0, b: 0, a: 0}
+    - _LineColor: {r: 1, g: 1, b: 1, a: 1}
+    - _PointA: {r: 0.28, g: -0.64, b: 0, a: 0}
+    - _PointB: {r: 0.28, g: -0.64, b: 0, a: 0}
+  m_BuildTextureStacks: []
